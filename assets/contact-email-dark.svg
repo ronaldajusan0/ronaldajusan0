@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 107 40" width="107" height="40" role="img" aria-labelledby="title">
+<title id="title">Email</title>
+<style>
+.in{animation:rise .8s cubic-bezier(.16,1,.3,1) both}
+.draw{stroke-dasharray:1;animation:draw 1.4s cubic-bezier(.65,0,.35,1) both}
+.ping{opacity:0;transform-box:fill-box;transform-origin:center;animation:ping 2.2s cubic-bezier(.16,1,.3,1) infinite}
+.grow{transform-box:fill-box;transform-origin:0 50%;animation:grow .9s cubic-bezier(.16,1,.3,1) both}
+.nudge{animation:nudge 3.2s cubic-bezier(.65,0,.35,1) infinite}
+@keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@keyframes draw{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+@keyframes ping{0%{transform:scale(1);opacity:.6}70%,100%{transform:scale(3.2);opacity:0}}
+@keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@keyframes nudge{0%,62%,100%{transform:none}76%{transform:translate(3px,-3px)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<g class="in" style="animation-delay:0.15s">
+  <path fill="#0d1117" d="M20,0.5H87A19.5,19.5 0 0 1 106.5,20V20A19.5,19.5 0 0 1 87,39.5H20A19.5,19.5 0 0 1 0.5,20V20A19.5,19.5 0 0 1 20,0.5Z"/>
+  <path class="draw" style="animation-delay:0.15s" pathLength="1" fill="none" stroke="#3d444d" d="M20,0.5H87A19.5,19.5 0 0 1 106.5,20V20A19.5,19.5 0 0 1 87,39.5H20A19.5,19.5 0 0 1 0.5,20V20A19.5,19.5 0 0 1 20,0.5Z"/>
+  <path fill="#f0f6fc" transform="translate(16 12) scale(0.6666666666666666)" d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/>
+  <path fill="#f0f6fc" d="M50.36 23.60L43.08 23.60L43.08 16.39L50.27 16.39L50.27 17.53L44.44 17.53L44.44 19.35L49.66 19.35L49.66 20.49L44.44 20.49L44.44 22.46L50.36 22.46L50.36 23.60ZM54.97 23.60L53.67 23.60L53.67 16.39L55.74 16.39L57.68 20.52Q57.75 20.68 57.87 20.96Q57.98 21.24 58.10 21.53Q58.22 21.83 58.33 22.08L58.33 22.08L58.39 22.08Q58.49 21.86 58.60 21.57Q58.72 21.29 58.84 21.01Q58.96 20.73 59.04 20.54L59.04 20.54L60.97 16.39L63.02 16.39L63.02 23.60L61.66 23.60L61.66 19.07Q61.66 18.89 61.66 18.65Q61.67 18.42 61.68 18.19Q61.69 17.96 61.70 17.79L61.70 17.79L61.61 17.79Q61.56 17.95 61.48 18.16Q61.39 18.37 61.30 18.58Q61.22 18.79 61.14 18.95L61.14 18.95L58.99 23.60L57.66 23.60L55.49 18.95Q55.40 18.75 55.30 18.53Q55.21 18.32 55.14 18.12Q55.07 17.93 55.02 17.79L55.02 17.79L54.94 17.79Q54.95 17.94 54.95 18.16Q54.96 18.38 54.96 18.62Q54.97 18.85 54.97 19.07L54.97 19.07L54.97 23.60ZM67.25 23.60L65.86 23.60L69.50 16.39L71.04 16.39L74.69 23.60L73.20 23.60L72.42 22.05L68.03 22.05L67.25 23.60ZM69.53 18.98L68.58 20.93L71.87 20.93L70.92 18.97Q70.86 18.85 70.76 18.64Q70.66 18.42 70.57 18.19Q70.47 17.96 70.38 17.78Q70.30 17.60 70.27 17.56L70.27 17.56L70.18 17.56Q70.09 17.77 69.96 18.05Q69.84 18.33 69.72 18.58Q69.60 18.83 69.53 18.98L69.53 18.98ZM78.89 23.60L77.53 23.60L77.53 16.39L78.89 16.39L78.89 23.60ZM88.41 23.60L82.51 23.60L82.51 16.39L83.86 16.39L83.86 22.40L88.41 22.40L88.41 23.60Z"/>
+</g>
+</svg>
